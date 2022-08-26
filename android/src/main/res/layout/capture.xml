@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:keepScreenOn="true">
+
+    <plugins.letswork.letsface.ui.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <plugins.letswork.letsface.ui.GraphicOverlay
+            android:id="@+id/graphic_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </plugins.letswork.letsface.ui.CameraSourcePreview>
+
+
+</LinearLayout>
